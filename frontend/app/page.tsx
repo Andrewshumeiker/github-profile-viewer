@@ -82,7 +82,7 @@ export default function Home() {
             <span className={styles.statusDot} />
             GitHub API · Live
           </div>
-          <h1 id="page-title">Un perfil, sin ruido.</h1>
+          <h1 id="page-title">GitHub Profile Viewer</h1>
           <p>
             Consulta la información pública de cualquier cuenta de GitHub a
             través de nuestro backend en NestJS.
