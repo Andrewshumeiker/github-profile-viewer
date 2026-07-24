@@ -7,10 +7,10 @@ un backend propio y presenta los datos en una interfaz responsive.
 
 ## Demo
 
-- Frontend: https://andrewshumeiker-github-profile.onrender.com
-- Backend: https://andrewshumeiker-github-profile-api.onrender.com
+- Frontend: https://github-profile-viewer-xi-sand.vercel.app
+- Backend: https://github-profile-viewer-xi-sand.vercel.app
 - Endpoint:
-  `https://andrewshumeiker-github-profile-api.onrender.com/user/Andrewshumeiker`
+  `https://github-profile-viewer-xi-sand.vercel.app/user/Andrewshumeiker`
 
 ## Tecnologías
 
