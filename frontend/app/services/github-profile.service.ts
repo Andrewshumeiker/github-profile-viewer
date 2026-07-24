@@ -5,7 +5,8 @@ interface ApiError {
 }
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
+  process.env.NEXT_PUBLIC_API_URL ??
+  (process.env.NODE_ENV === "production" ? "" : "http://localhost:3001");
 
 export async function getGithubUser(username: string): Promise<GithubUser> {
   const response = await fetch(
