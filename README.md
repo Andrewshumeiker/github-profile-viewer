@@ -7,9 +7,10 @@ un backend propio y presenta los datos en una interfaz responsive.
 
 ## Demo
 
-- Frontend: pendiente de despliegue
-- Backend: pendiente de despliegue
-- Endpoint: `GET /user/:username`
+- Frontend: https://andrewshumeiker-github-profile.onrender.com
+- Backend: https://andrewshumeiker-github-profile-api.onrender.com
+- Endpoint:
+  `https://andrewshumeiker-github-profile-api.onrender.com/user/Andrewshumeiker`
 
 ## Tecnologías
 
