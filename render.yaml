@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: free
     rootDir: backend
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install --no-audit --no-fund && npm run build
     startCommand: npm run start:prod
     healthCheckPath: /user/Andrewshumeiker
     envVars:
@@ -17,7 +17,7 @@ services:
     name: andrewshumeiker-github-profile
     runtime: static
     rootDir: frontend
-    buildCommand: npm ci && npm run build
+    buildCommand: npm install --no-audit --no-fund && npm run build
     staticPublishPath: ./out
     envVars:
       - key: NODE_VERSION
